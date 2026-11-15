@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts/googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  
+  <!--Tailwind CDN-->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Lab-3: Revised Blog Preview Card</title>
+  <style>
+    body {font-family: "Figtree", sans-serif;}
+  </style>
+</head>
+<body class="bg-[#F4D04E] min-h-screen flex flex-col items-center justify-center p-4">
+
+  <!-- Main Card Container-->
+<main class="w-[384px] bg-white p-5 rounded-[20px] border border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
+    <!--Article Illustration Image-->
+    <div class="mb-4">
+      <img src="./images/illustration-article.svg" alt="illustration-article image" class="rounded-[10px] w-full object-cover">
+      </div>
+    
+<!--Card Content Section-->
+<div>
+  <!-- Learning badge-->
+   <span class="inline-block bg-[#F4D04E] font-extrabold text-sm px-3 py-1 rounded-[4px] mb-3">
+    Learning
+   </span>
+
+   <!-- Published Date-->
+    <p class="text-sm font-medium text-gray-900 mb-3">
+      Published 21 Dec 2023
+     </p>
+     
+     <!-- Blog Post Title-->
+      <a href="#" class="block mb-3">
+        <h2 class="text-2xl font-extrabold text-gray-900 hover:text-[#F4D04E] transition-colors">
+          HTML & CSS foundations
+        </h2>
+      </a>
+
+      <!--Paragraph-->
+      <p class="text-[#7F7F7F] text-base font-medium leading-relaxed mb-6">
+        These languages are the backbone of every website, defining structure, content, and presentation.
+      </p>
+
+      <!-- Author Profile Info-->
+       <div class="flex items-center gap-3">
+        <img src="./images/image-avatar.webp" alt="Greg Hooper image" class="w-8 h-8">
+       <span class="font-extrabold text-sm text-gray-900">Greg Hooper</span>
+      </div>
+   </div>
+</main>
+
+    <!-- Footer-->
+    <footer class="text-center mt-8 text-sm">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" class="underline text-blue-900" target="_blank">Frontend Mentor</a>.      Coded by <a href="#" class="underline text-blue-900"> Jacqueline Soto </a>.
+    </footer>
+  </body>
+</html>
